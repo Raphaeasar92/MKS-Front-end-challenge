@@ -1,16 +1,626 @@
-.App {
+/* .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+} */
+
+.top {
+  width: 1440px;
+  height: 70px;
+  background-color: #0F52BA;
+}
+
+.item-top {
+  padding-top: 28px;
+  padding-left: 65px;
+}
+
+.p {
+  font-family: Montserrat;
+  size: 40px;
+  height: 19px;
+  color: #FFFFFF;
+}
+
+.content {
+  width: 938px;
+  height: 300.5px;
+  margin-top: 217px;
+  margin-left: 147px;
+}
+
+.content2 {
+  width: 938px;
+  height: 300.5px;
+  margin-top: 20px;
+  margin-left: 147px;
+}
+
+.card_1 {
+  width: 217.56px;
+  height: 285px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 8px 8px 0px 0px;
+  border-color: #000000;
+}
+
+.card_2 {
+  width: 217.56px;
+  height: 285px;
+  float: left;
+  margin-right: 20px;
+}
+
+.card_3 {
+  width: 217.56px;
+  height: 285px;
+  float: left;
+  margin-right: 20px;
+}
+
+.card_4 {
+  width: 217.56px;
+  height: 285px;
+  float: left;
+}
+
+.card_5 {
+  width: 217.56px;
+  height: 285px;
+  float: left;
+  margin-right: 20px;
+}
+
+.card_6 {
+  width: 217.56px;
+  height: 285px;
+  float: left;
+  margin-right: 20px;
+}
+
+.card_7 {
+  width: 217.56px;
+  height: 285px;
+  float: left;
+  margin-right: 20px;
+}
+
+.card_8 {
+  width: 217.56px;
+  height: 285px;
+  float: left;
+}
+
+.card_image1 {
+  width: 111px;
+  height: 138px;
+  margin-top: 18px;
+  margin-left: 53px;
+  margin-bottom: 129px;
+  background-image: url("../images/apple-watch.png");
+  background-repeat: no-repeat;
+}
+
+.card_image2 {
+  width: 111px;
+  height: 138px;
+  margin-top: 18px;
+  margin-left: 53px;
+  margin-bottom: 129px;
+  background-image: url("../images/jbl-speaker.png");
+  background-repeat: no-repeat;
+}
+
+.card_image3 {
+  width: 111px;
+  height: 138px;
+  margin-top: 18px;
+  margin-left: 53px;
+  margin-bottom: 129px;
+  background-image: url("../images/iphone-x.png");
+  background-repeat: no-repeat;
+}
+
+.card_image4 {
+  width: 111px;
+  height: 138px;
+  margin-top: 18px;
+  margin-left: 53px;
+  margin-bottom: 129px;
+  background-image: url("../images/beats-headphones.png");
+  background-repeat: no-repeat;
+}
+
+.card_image5 {
+  width: 111px;
+  height: 138px;
+  margin-top: 18px;
+  margin-left: 53px;
+  margin-bottom: 129px;
+  background-image: url("../images/macbook-pro.png");
+  background-repeat: no-repeat;
+}
+
+.card_image6 {
+  width: 111px;
+  height: 138px;
+  margin-top: 18px;
+  margin-left: 53px;
+  margin-bottom: 129px;
+  background-image: url("../images/ipad-pro.png");
+  background-repeat: no-repeat;
+}
+
+.card_image7 {
+  width: 111px;
+  height: 138px;
+  margin-top: 18px;
+  margin-left: 53px;
+  margin-bottom: 129px;
+  background-image: url("../images/homepod.png");
+  background-repeat: no-repeat;
+}
+
+.card_image8 {
+  width: 111px;
+  height: 138px;
+  margin-top: 18px;
+  margin-left: 53px;
+  margin-bottom: 129px;
+  background-image: url("../images/jlab-audio-wireless.png");
+  background-repeat: no-repeat;
+}
+
+.button1 {
+  width: 218px;
+  height: 31.91px;
+  top: 253px;
+  background-color: #0F52BA;
+  border-radius: 0px 0px 8px 8px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2 {
+  width: 218px;
+  height: 31.91px;
+  top: 253px;
+  background-color: #0F52BA;
+  border-radius: 0px 0px 8px 8px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button3 {
+  width: 218px;
+  height: 31.91px;
+  top: 253px;
+  background-color: #0F52BA;
+  border-radius: 0px 0px 8px 8px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button4 {
+  width: 218px;
+  height: 31.91px;
+  top: 253px;
+  background-color: #0F52BA;
+  border-radius: 0px 0px 8px 8px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button5 {
+  width: 218px;
+  height: 31.91px;
+  top: 253px;
+  background-color: #0F52BA;
+  border-radius: 0px 0px 8px 8px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button6 {
+  width: 218px;
+  height: 31.91px;
+  top: 253px;
+  background-color: #0F52BA;
+  border-radius: 0px 0px 8px 8px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button7 {
+  width: 218px;
+  height: 31.91px;
+  top: 253px;
+  background-color: #0F52BA;
+  border-radius: 0px 0px 8px 8px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button8 {
+  width: 218px;
+  height: 31.91px;
+  top: 253px;
+  background-color: #0F52BA;
+  border-radius: 0px 0px 8px 8px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_product1 {
+  width: 124px;
+  height: 38px;
+  margin-top: -110px;
+  margin-left: 14px;
+}
+
+.title_product2 {
+  width: 124px;
+  height: 38px;
+  margin-top: -110px;
+  margin-left: 14px;
+}
+
+.title_product3 {
+  width: 124px;
+  height: 38px;
+  margin-top: -110px;
+  margin-left: 14px;
+}
+
+.title_product4 {
+  width: 124px;
+  height: 38px;
+  margin-top: -110px;
+  margin-left: 14px;
+}
+
+.title_product5 {
+  width: 124px;
+  height: 38px;
+  margin-top: -110px;
+  margin-left: 14px;
+}
+
+.title_product6 {
+  width: 124px;
+  height: 38px;
+  margin-top: -110px;
+  margin-left: 14px;
+}
+
+.title_product7 {
+  width: 124px;
+  height: 38px;
+  margin-top: -110px;
+  margin-left: 14px;
+}
+
+.title_product8 {
+  width: 124px;
+  height: 38px;
+  margin-top: -110px;
+  margin-left: 14px;
+}
+
+.price_product1 {
+  width: 64px;
+  height: 26px;
+  margin-top: -35px;
+  margin-left: 150px;
+  float: left;
+  size: 15px;
+  height: 15px;
+}
+
+.price_product2 {
+  width: 64px;
+  height: 26px;
+  margin-top: -35px;
+  margin-left: 150px;
+  float: left;
+  size: 15px;
+  height: 15px;
+}
+
+.price_product3 {
+  width: 64px;
+  height: 26px;
+  margin-top: -35px;
+  margin-left: 150px;
+  float: left;
+  size: 15px;
+  height: 15px;
+}
+
+.price_product4 {
+  width: 64px;
+  height: 26px;
+  margin-top: -35px;
+  margin-left: 150px;
+  float: left;
+  size: 15px;
+  height: 15px;
+}
+
+.price_product5 {
+  width: 64px;
+  height: 26px;
+  margin-top: -35px;
+  margin-left: 150px;
+  float: left;
+  size: 15px;
+  height: 15px;
+}
+
+.price_product6 {
+  width: 64px;
+  height: 26px;
+  margin-top: -35px;
+  margin-left: 150px;
+  float: left;
+  size: 15px;
+  height: 15px;
+}
+
+.price_product7 {
+  width: 64px;
+  height: 26px;
+  margin-top: -35px;
+  margin-left: 150px;
+  float: left;
+  size: 15px;
+  height: 15px;
+}
+
+.price_product8 {
+  width: 64px;
+  height: 26px;
+  margin-top: -35px;
+  margin-left: 150px;
+  float: left;
+  size: 15px;
+  height: 15px;
+
+}
+
+.btn_price1 {
+  size: 15px;
+  height: 15px;
+  background-color: #373737;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_price2 {
+  size: 15px;
+  height: 15px;
+  background-color: #373737;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_price3 {
+  size: 15px;
+  height: 15px;
+  background-color: #373737;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_price4 {
+  size: 15px;
+  height: 15px;
+  background-color: #373737;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_price5 {
+  size: 15px;
+  height: 15px;
+  background-color: #373737;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_price6 {
+  size: 15px;
+  height: 15px;
+  background-color: #373737;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_price7 {
+  size: 15px;
+  height: 15px;
+  background-color: #373737;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_price8 {
+  size: 15px;
+  height: 15px;
+  background-color: #373737;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description_prod1 {
+  width: 192px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 14px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.description_prod2 {
+  width: 192px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 14px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.description_prod3 {
+  width: 192px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 14px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.description_prod4 {
+  width: 192px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 14px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.description_prod5 {
+  width: 192px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 14px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.description_prod6 {
+  width: 192px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 14px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.description_prod7 {
+  width: 192px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 14px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.description_prod8 {
+  width: 192px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 14px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+
+
+.footer {
+  width: 1440px;
+  height: 34px;
+  margin-top: 172px;
+  background-color: #EEEEEE;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #000000;
+  font-family: 'Montserrat';
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
 }
 
 .App-header {
@@ -32,6 +642,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
